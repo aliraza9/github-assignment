@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_margin="@dimen/small_margin"
+        android:src="@drawable/ic_launcher_background"
+
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/avatar"
+        android:padding="@dimen/small_padding"
+        android:singleLine="true"
+        android:text="@string/name"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/followersTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/medium_margin"
+        android:textColor="@color/black"
+        android:background="@drawable/round_textview"
+        android:padding="@dimen/small_padding"
+        android:text="@string/details" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_below="@+id/avatar"
+        android:background="@color/grey" />
+</RelativeLayout>

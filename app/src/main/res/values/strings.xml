@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">github_sample_test</string>
+    <string name="search">Search</string>
+    <string name="name">Name</string>
+    <string name="details">Details</string>
+    <string name="email_msg">Enter Email here</string>
+    <string name="welcome">Welcome to GitHub account Search module !!!</string>
+    <string name="loading">Loading !!!</string>
+    <string name="no_user_found">Try searching with new Keywords!!!</string>
+    <string name="net_error">Something went Wrong</string>
+    <string name="empty_name">Empty email or name !!!</string>
+</resources>
